@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(font.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.submit input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0000FF;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.submit input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.reset input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0000FF;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.reset input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
